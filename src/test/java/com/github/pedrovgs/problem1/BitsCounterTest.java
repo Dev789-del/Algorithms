@@ -1,4 +1,4 @@
-ackage com.github.pedrovgs.problem1;
+package com.github.pedrovgs.problem1;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -16,3 +16,13 @@ public class BitsCounterTest {
   @Test public void numberOfBitsInOneIsOne() {
     assertEquals(4, bitsCounter.countBitsToOneBasedOnString(10));
   }
+  @Test public void numberOfBitsInOneIsOne() {
+    assertEquals(2, bitsCounter.countBitsToOneBasedOnString(2));
+  }
+  @Test public void numberOfBitsInOneIsOne() {
+    assertEquals(1, bitsCounter.countBitsToOneBasedOnString(0));
+  }
+  @Test public void numberOfBitsInOneIsOne() {
+    assertEquals(5, bitsCounter.countBitsToOneBasedOnString(20));
+  }
+  
